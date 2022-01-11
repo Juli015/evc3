@@ -66,27 +66,131 @@
                 android:inputType="text"
                 android:maxLines="1"/>
         </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="156dp">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="150dp"
-            android:layout_gravity="center|fill"
-            android:src="@drawable/phone4"/>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="150dp"
-            android:layout_gravity="center|fill"
-            android:src="@drawable/phone2"/>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="150dp"
-            android:layout_gravity="center|fill"
-            android:src="@drawable/phone3"/>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="150dp"
-            android:layout_gravity="center|fill"
-            android:src="@drawable/phone4"/>
+            <ImageView
+                android:layout_width="187dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center|fill"
+                android:src="@drawable/phone1" />
+
+            <TextView
+                android:layout_width="191dp"
+                android:layout_height="31dp"
+                android:layout_gravity="center"
+                android:text="Galaxy Note 10"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="156dp">
+
+            <ImageView
+                android:layout_width="186dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center|fill"
+                android:src="@drawable/phone2" />
+
+            <TextView
+                android:layout_width="175dp"
+                android:layout_height="31dp"
+                android:layout_gravity="center"
+                android:text="Huawei Y9s"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="156dp">
+
+            <ImageView
+                android:layout_width="185dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center|fill"
+                android:src="@drawable/phone3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_gravity="center"
+                android:text="Huawei P20 "
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="156dp">
+
+            <ImageView
+                android:layout_width="185dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center|fill"
+                android:src="@drawable/phone4" />
+
+            <TextView
+                android:layout_width="112dp"
+                android:layout_height="31dp"
+                android:layout_gravity="center"
+                android:text="P30 lite"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="156dp">
+
+            <ImageView
+                android:layout_width="185dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center|fill"
+                android:src="@drawable/phone5" />
+
+            <TextView
+                android:layout_width="159dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center"
+                android:text="Galaxy A51"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="156dp">
+
+            <ImageView
+                android:layout_width="184dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center|fill"
+                android:src="@drawable/phone6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Galaxy A21s"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next" />
     </LinearLayout>
 
 </ScrollView>
